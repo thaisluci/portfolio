@@ -104,7 +104,7 @@ header{
 #photo{
     width: 500px;
     height: 500px;
-    background-image: url('../00_img/foto.png');
+    background-image: url('./00_img/foto.png');
     background-size: cover;
     border-radius: 25px;
 }
