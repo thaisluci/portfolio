@@ -1,0 +1,137 @@
+/*Reset*/
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.text-reset{
+    color: white;
+}
+
+/* Navigation */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-line{
+    width: 20%;
+    height: 1px;
+    background-color: blueviolet;
+    margin: 0 20px;
+}
+.btn-nav{
+    border: none;
+    background: none;
+    margin: 10px;
+    padding: 10px;
+    color: blueviolet;
+}
+.btn-nav:hover{
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 15px;
+    transition: 0.2s;
+}
+.btn-nav:not(hover){
+    transition: 0.2s;
+}
+
+/*Header*/
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 0;
+    background: rgb(121,20,199);
+    background: linear-gradient(90deg, rgba(121,20,199,1) 0%, rgba(159,37,254,1) 47%, rgba(133,31,175,1) 100%);
+}
+
+#h1-header{
+    font-size: 4rem;
+    margin: 0;
+    color: white;
+}
+
+#h3-header{
+    margin: 0;
+    font-size: 1.6rem;
+    color: white;
+}
+
+#social{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.rede{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;
+    margin: 25px 25px 0px 25px;
+    border-radius: 100px;
+}
+
+/*Revistas*/
+
+.line-revista{
+    background-color: rgb(121,20,199);
+    height: 2px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.h1-revista{
+    margin: 0;
+    padding: 0;
+    color: rgb(121,20,199);
+}
+
+#revistas{
+    margin-top: 10vh;
+    display: flex;
+    width: 100vw;
+    min-height: 50vh;
+    flex-direction: column;
+    align-items: center;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 25px 0;
+}
+#textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+}
+#photo{
+    width: 200px;
+    background-color: black;
+    margin-right: 10px;
+}
+
+#ler{
+    width: 25%;
+    color: white;
+    border: none;
+    background-color: rgb(121,20,199);
+    padding: 10px 0px;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+#ler:hover{
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+}
